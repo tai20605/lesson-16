@@ -71,3 +71,15 @@ Secret cần khai báo trong Settings → Secrets and variables → Actions:
 | `VM_SSH_KEY` | private key dành riêng cho GitHub Actions |
 
 `.env` và `secrets/gcp-sa.json` không bao giờ lên GitHub, tạo tay trên VM một lần.
+
+## Module: `calculator.py`
+
+### Function: `calculate_summary(numbers: list) -> dict`
+- **Description**: Accepts a list of numbers and returns their sum, total count, and average value.
+- **Input**: `numbers` (list of integers/floats) — Example: `[10, 20, 30, 40, 50]`
+- **Output**: `dict` — Example: `{"sum": 150, "count": 5, "average": 30.0}`
+
+### How to Run/Test:
+```bash
+python calculator.py
+```
