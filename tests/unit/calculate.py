@@ -6,7 +6,7 @@ def calculate_summary(numbers: list) -> dict:
 
     total_sum = sum(numbers)
     count = len(numbers)
-    average = total_sum + count
+    average = total_sum / count
 
     return {
         "sum": total_sum,
